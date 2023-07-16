@@ -3,7 +3,7 @@ import { NoteList } from './NoteList';
 import { NewNoteForm } from './NewNoteForm';
 
 export const Notes = () => {
-  const NOTES_URL = 'https://lifestyle-39bq.onrender.com/notes';
+  const NOTES_URL = 'https://lifestyle-39bq.onrender.com';
 
   const [notes, setNotes] = useState([]);
 
